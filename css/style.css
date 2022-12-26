@@ -139,9 +139,13 @@ body {
   justify-content: center;
   margin-left: 5px;
 }
-.card_info .row_personal_info .copy_part .copy img {
+.card_info .row_personal_info .copy_part .copy svg {
   width: 18px;
   height: 18px;
+}
+
+.card_info .row_personal_info .copy_part .copy svg:hover path{
+  fill: #99A4AF;
 }
 
 .foto_country img {
