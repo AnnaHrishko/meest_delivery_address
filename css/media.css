@@ -43,6 +43,55 @@
   }
 }
 @media screen and (max-width: 768px) {
+
+  .country_wrap .country_but.poland{
+    width: calc(35% - 6px);
+  }
+
+  .country_wrap .country_but.great_brtn{
+    width: calc(29% - 6px);
+  }
+
+  .country_wrap .country_but.germany{
+    width: calc(36% - 6px);
+  }
+
+  .country_wrap .country_but.italy{
+    width: calc(32% - 6px);
+  }
+
+  .country_wrap .country_but.spain{
+    width: calc(29% - 6px);
+  }
+
+  .country_wrap .country_but.portugal{
+    width: calc(39% - 6px);
+  }
+
+  .country_wrap .country_but.france{
+    width: calc(30% - 6px);
+  }
+
+  .country_wrap .country_but.turkey{
+    width: calc(35% - 6px);
+  }
+
+  .country_wrap .country_but.greece{
+    width: calc(35% - 6px);
+  }
+
+  .country_wrap .country_but.usa{
+    width: calc(100% - 6px);
+  }
+
+  .country_wrap .country_but.usa_delaver{
+    width: calc(50% - 6px);
+  }
+
+  .country_wrap .country_but.ukraine{
+    width: calc(50% - 6px);
+  }
+
   .s_meest_delivery_address_inner h2 {
     font-size: 26px;
     line-height: 36px;
@@ -185,5 +234,16 @@
   }
   .card_news .main_img_news {
     height: 220px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .flag {
+    width: 20px;
+    height: 20px;
+  }
+
+  .country_wrap .country_but h4 {
+    font-size: 11px;
   }
 }
