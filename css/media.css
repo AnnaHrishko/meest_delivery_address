@@ -125,11 +125,11 @@
     align-items: center;
   }
   .country_wrap .country_but h4 {
-    font-size: 13px;
+    font-size: 12px;
   }
   .flag {
-    width: 27px;
-    height: 20px;
+    width: 16px;
+    height: 12px;
   }
   .country_wrap .country_but .flag {
     margin-right: 4px;
@@ -234,16 +234,5 @@
   }
   .card_news .main_img_news {
     height: 220px;
-  }
-}
-
-@media screen and (max-width: 400px){
-  .flag {
-    width: 20px;
-    height: 20px;
-  }
-
-  .country_wrap .country_but h4 {
-    font-size: 11px;
   }
 }
