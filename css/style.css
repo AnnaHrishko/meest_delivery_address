@@ -118,6 +118,30 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.card_info .row_personal_info .copy_part.without_copy_btn .copy{
+  display: none;
+}
+.copy_part .input_txt{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #303A45;
+  border: none;
+  padding: 0;
+  outline: none;
+  width: 100%;
+}
+.copy_part .input_txt::placeholder{
+  color: #303A45;
+  opacity: 1;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
 .card_info .row_personal_info .copy_part #txt {
   background-color: transparent;
   border: none;
@@ -458,7 +482,28 @@ body {
   color: #99A4AF;
   margin-bottom: 48px;
 }
-
+.btn_register{
+  border: 2px solid #2361A9;
+  color: #2361A9;
+  border-radius: 25px;
+  padding: 12px 37px;
+  background-color: #fff;
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.btn_register span{
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+}
+.s_meest_delivery_address_inner .btn_center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
 .default_tab {
   display: none;
 }
