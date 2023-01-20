@@ -167,9 +167,11 @@ body {
   width: 18px;
   height: 18px;
 }
-
+.card_info .row_personal_info .copy_part .copy svg path{
+  color: #99A4AF!important;
+}
 .card_info .row_personal_info .copy_part .copy svg:hover path{
-  fill: #99A4AF;
+  fill: #28D3A1;
 }
 
 .foto_country img {
